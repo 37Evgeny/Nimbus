@@ -1,16 +1,16 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0px;
   font-family: 'Inter', sans-serif;
 }
 
 *,
 *::after,
-*::before{
-    box-sizing: inherit;
+*::before {
+  box-sizing: inherit;
 }
 
 p,
@@ -20,7 +20,8 @@ figure,
 blockquote {
   margin: 0;
 }
-blockquote, 
+
+blockquote,
 q {
   quotes: none;
 }
@@ -61,7 +62,7 @@ img {
   display: block;
   border: none;
   /* max-width: 100%; */
-} 
+}
 
 iframe {
   border: none;
@@ -75,13 +76,21 @@ samp {
   font-size: inherit;
 }
 
-.container{
-    padding: 0px 15px;
-    max-width: 1240px;
-    margin: 0px auto;
-    height: 100%;
-    box-sizing: content-box;
-    overflow: hidden;
+.container {
+  padding: 0px 15px;
+  max-width: 1240px;
+  margin: 0px auto;
+  height: 100%;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+h2 {
+  color: #272727;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .wrapper {

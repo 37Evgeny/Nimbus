@@ -1,3 +1,6 @@
 @import url("./setup/base.css");
 @import url("./block/header.css");
 @import url("./block/info.css");
+@import url("./block/team.css");
+@import url("./block/services.css");
+@import url("./block/friendly.css");

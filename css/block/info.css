@@ -1,0 +1,149 @@
+.info__cnt {
+    display: flex;
+    gap: 122px;
+    margin-top: 80px;
+}
+
+.info__cnt__left {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background: #F9F9F9;
+}
+
+.info__cnt__left__title {
+    margin-top: 60px;
+    width: 528px;
+    color: #272727;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 64.8px */
+}
+
+.info__cnt__left__text {
+    margin-top: 33px;
+    color: #272727;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.info__cnt__left__input {
+    display: flex;
+    margin-top: 60px;
+}
+
+.info__cnt__left__input input {
+    border: none;
+    border-radius: 12px;
+    background: #FFF;
+    width: 400px;
+    height: 50px;
+}
+
+.info__cnt__left__input button {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 22px */
+    margin-left: -30px;
+    width: 177px;
+    height: 50px;
+    border-radius: 12px;
+    background: #FF5681;
+}
+
+.info__cnt__left__input input::placeholder {
+    padding-left: 20px;
+    font-size: 20px;
+    align-self: center;
+}
+
+.info__cnt__right img {
+    width: 509px;
+    height: 595px;
+    border-radius: 0px 24px 24px 0px;
+}
+
+@media(max-width:1220px) {
+    .info__cnt {
+        gap: 10px;
+    }
+
+    .info__cnt__left__text {
+        margin-top: 33px;
+        color: #272727;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 25.2px */
+    }
+
+    .info__cnt__left {
+        display: flex;
+        flex-direction: column;
+        border-radius: 24px;
+        background: #F9F9F9;
+    }
+
+    .info__cnt__left__title {
+        max-width: 528px;
+    }
+
+    .info__cnt__right img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .info__cnt {
+        flex-direction: column-reverse;
+    }
+
+    .info__cnt__right img {
+        border-radius: 24px 24px 0px 0px;
+    }
+}
+
+@media(max-width:400px) {
+    .info__cnt__left__title {
+        width: 249px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .info__cnt__left__text {
+
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 18.2px */
+    }
+
+    .info__cnt__left__input {
+        margin-bottom: 50px;
+    }
+
+    .info__cnt__left__input button {
+        width: 128px;
+        height: 38px;
+    }
+
+    .info__cnt__left__input input {
+        width: 310px;
+        height: 38px;
+    }
+}

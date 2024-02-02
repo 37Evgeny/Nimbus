@@ -15,14 +15,13 @@
 
 .services__card {
     width: 295px;
-    height: 335px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     border-radius: 24px;
     background: #FFF;
     box-shadow: 12px 12px 50px 0px rgba(0, 0, 0, 0.10);
-    
 }
 
 .services__card img {
@@ -53,17 +52,17 @@
     align-self: center;
 }
 
-@media(max-width:644px){
+@media(max-width:644px) {
     .services__cards {
-       max-width: 100%;
+        max-width: 100%;
     }
 }
 
 @media(max-width:400px) {
-    .services__card span{
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    .services__card span {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }

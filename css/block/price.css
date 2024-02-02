@@ -272,7 +272,7 @@
     }
 }
 
-@media(max-width: 485px) {
+@media(max-width: 400px) {
     .price__form__input input {
         width: 200px;
     }

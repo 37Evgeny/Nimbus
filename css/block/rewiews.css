@@ -1,0 +1,155 @@
+.reviews__cnt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews__cnt h6 {
+    color: #272727;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rewiews__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 48px;
+}
+
+.rewiews__cards__card__adaptive {
+    display: flex;
+    flex-direction: column;
+}
+
+.rewiews__cards__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 380px;
+    height: 496px;
+    border-radius: 24px;
+    background: rgba(255, 86, 129, 0.10);
+}
+
+.rewiews__cards__card__adaptive {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.rewiews__cards__card__line {
+    display: flex;
+}
+
+.rewiews__cards__card__line img {
+    width: 167px;
+    height: 167px;
+    border-radius: 0px 16px 16px 0px;
+    background: cover no-repeat;
+}
+
+.rewiews__cards__card__line div {
+    width: 27px;
+    height: 167px;
+    background: #FF5681;
+}
+
+.rewiews__cards__card__name {
+    padding: 0px 30px;
+    color: #272727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 30px */
+}
+
+.rewiews__cards__card__rating img {
+    padding: 0px 30px;
+    margin-top: -6px;
+    fill: linear-gradient(92deg, #FF4070 0%, #FF84A3 100%);
+}
+
+.rewiews__cards__card p {
+    padding: 0px 30px;
+    color: #272727;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.rewiews__cards__card__adaptive__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media(max-width:420px) {
+    
+    .reviews__cnt h6 {
+        font-size: 20px;
+    }
+
+    .rewiews__cards__card__adaptive {
+       flex-direction: row;
+    }
+
+    .rewiews__cards {
+        gap: 25px;
+    }
+
+    .rewiews__cards__card {
+        gap: 16px;
+        width: 255px;
+        height: 271px;
+        border-radius: 12px;
+        background: rgba(255, 86, 129, 0.10);
+    }
+
+    .rewiews__cards__card__line img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .rewiews__cards__card__line div {
+        width: 12px;
+        height: 75px;
+    }
+
+    .rewiews__cards__card__name {
+        padding: 0px;
+        color: #272727;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        /* 30px */
+    }
+
+    .rewiews__cards__card__rating img {
+        width: 66px;
+        height: 10px;
+        padding: 0px;
+        margin-top: 0px;
+        fill: linear-gradient(92deg, #FF4070 0%, #FF84A3 100%);
+    }
+
+    .rewiews__cards__card p {
+        padding: 0px 15px;
+        font-size: 13px;
+    }
+
+    .rewiews__cards__card__adaptive__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}

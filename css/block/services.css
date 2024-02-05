@@ -11,6 +11,7 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 50px;
+    gap: 20px;
 }
 
 .services__card {
